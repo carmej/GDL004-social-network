@@ -7,31 +7,20 @@ git<!DOCTYPE html>
   <link rel="stylesheet" href="styles.css">
   <title>Red Social</title>
 </head>
-<body class="login-page">
-  <div class="login-container">
-    <div class="brand-login">
-      <img src="images/homeschooling.png" class="logo">
-    </div> 
-    <div class="form-login">
-        <input type="text" class="form-login--user" placeholder="Email">
-        <input type="password" class="form-login--user" placeholder="Contraseña">
-        <input type="submit" value="Ingresar" class="form-login--submit">
-    </div>
-  </div>
-    <p>O bien registrate con:</p>
-    <div id="iconos">
-      <a id="google"><img src="images/googleCircle.png" class="pequeña"></a>
-      <a id="facebook"><img src="images/iconFacebook.png" class="pequeña"></a>
-    </div>
-    <div id="padre">
-       
+<body>
+  <header>
+    <div class="contenedor">
+      <img class="logo" src="images/homeschooling.png">
+      <h1>LIBRES PARA APRENDER</h1>
+  </header>
+    <input type="email" id="email" placeholder="ejemplo@gmail.com">
+  <footer >
+      <div class="contenedor">
+        <p class="copy">Social Network &copy; 2020 Created by Vivi, Eugenia & Carmen</p>
       </div>
-
-  <p>No tienes cuenta aún?</p>
-  <p> <input class="button" type="button" value="REGISTRARSE" name="Entrar" id="botonregistrarse"></p>
-    
-    <script type="module" src="index.js"></script>  
-  <!-- The core Firebase JS SDK is always required and must be listed first -->
+    </footer>  
+ <script type="module" src="index.js"></script> 
+<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
@@ -47,13 +36,15 @@ git<!DOCTYPE html>
     projectId: "social-network-f5fd8",
     storageBucket: "social-network-f5fd8.appspot.com",
     messagingSenderId: "651235386423",
-    appId: "1:651235386423:web:0e6b75cfded6466aeecbb2",
-    measurementId: "G-JVDSPV45W2"
+    appId: "1:651235386423:web:244d50789c71e2ddeecbb2",
+    measurementId: "G-LTSRV03ENY"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
+
+
 
 </body>
 </html>
