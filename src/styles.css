@@ -1,7 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+    box-sizing: border-box;   
+
 }
 
 body{
@@ -10,15 +11,15 @@ body{
 
 header{
 	width: 100%;
-	height: 50px;
-	background: #fafbfcec;
+	height: 80px;
+	background: #6a7681ec;
 	color: #050507dc;
-
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 100;
 }
+
 
 .contenedor{
 	width: 98%;
@@ -31,18 +32,18 @@ img.pequeña{
     height: 50px;
     }
 
-    .logo{
-        width: 80px;
-        height: 80px;
-        float: left;
-        z-index: 100;
+.logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+    z-index: 100;
     }
 
     h1{
         display: flex;
-        align-items:center;
+        align-items: initial;
         justify-content:center;
-        font-size: 40px;
+        font-size: 25px;
     }
     footer .contenedor{
         display: flex;
@@ -57,16 +58,6 @@ img.pequeña{
         font-size: 20px;
     }
     
-    .sociales{
-        width: 100%;
-        text-align: center;
-        font-size: 28px;
-    }
-    .sociales a{
-        color: #333;
-        text-decoration: none;
-    
-    }
     footer .contenedor{
         display: flex;
         flex-wrap: wrap;
@@ -81,8 +72,7 @@ img.pequeña{
     }
     
     @media (min-width: 768px){
-        .sociales{
-            width: auto;
+
         }
         footer .contenedor{
             justify-content: space-between;
@@ -95,18 +85,7 @@ img.pequeña{
         }
     }
     
-    div.contenedor1 {
-    top: 30px;
-    display: flex;
-    position: relative;
-    padding: auto;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    max-width: 100%;
-    }
-
+   
     /*estilo para ingresar*/
 #ingresar{
     margin-top: 50px;
@@ -141,4 +120,11 @@ img.pequeña{
 		height: auto;
 		margin-top: -5px;
 	}
+}
+
+.menu{
+	width: 100%;
+	height: 100vh;
+	top: 50px;
+    display: flex;
 }
