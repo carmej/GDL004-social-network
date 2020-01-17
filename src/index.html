@@ -5,22 +5,39 @@ git<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
-  <title>Red Social</title>
+  <title>Socail Network</title>
 </head>
 <body>
   <header>
     <div class="contenedor">
-      <img class="logo" src="images/homeschooling.png">
+      <img class="logo" src="images/hommlogo.png">
       <h1>LIBRES PARA APRENDER</h1>
+           <!--Menú barra de lado derecho -->   
+            <nav class="menu">
+           <ul>
+             <li>
+               <a href="#/">INICIO</a>
+             </li>
+             <li>
+                <a href="#/entrar">ENTRAR</a>
+             </li>
+             <li>
+                <a href="#/crearcuenta">CREAR CUENTA</a>
+             </li>
+           </ul>
+          </nav>     
+        </div>
   </header>
-  <!--aqui crear contenido de inicio-->
-    <input type="email" id="email" placeholder="ejemplo@gmail.com">
+
+  <section id="container"></section>
+
   <footer >
       <div class="contenedor">
         <p class="copy">Social Network &copy; 2020 Created by Vivi, Eugenia & Carmen</p>
       </div>
     </footer>  
  <script type="module" src="index.js"></script> 
+ <script type="module" src="main.js"></script>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
 
@@ -44,8 +61,5 @@ git<!DOCTYPE html>
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-
-
-
 </body>
 </html>
