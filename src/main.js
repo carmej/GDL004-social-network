@@ -1,5 +1,9 @@
+import {changeTmp} from './view-controler/router.js'
+
+
 const init = () => {
-    window.addEventListener('hashchange', () => console.log(window.location.hash))
+    changeTmp(window.location.hash)
+    window.addEventListener('hashchange', () => changeTmp(window.location.hash))
 }
 
 window.addEventListener('load',init)
