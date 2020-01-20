@@ -4,10 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Red Social</title>
 </head>
 <body>
-  .
+
+
   <script type="module" src="index.js"></script>
+
+  <header>
+    <div class="contenedor">
+      <img class="logo" src="images/homeschooling.png">
+      <h1>LIBRES PARA APRENDER</h1>
+  </header>
+    <input type="email" id="email" placeholder="ejemplo@gmail.com">
+  <footer >
+      <div class="contenedor">
+        <p class="copy">Social Network &copy; 2020 Created by Vivi, Eugenia & Carmen</p>
+      </div>
+    </footer>
+ <script type="module" src="index.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+<!-- TO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAhxcG-lbkN8KokxosMpkZJhM4QtJpvyG8",
+    authDomain: "social-network-f5fd8.firebaseapp.com",
+    databaseURL: "https://social-network-f5fd8.firebaseio.com",
+    projectId: "social-network-f5fd8",
+    storageBucket: "social-network-f5fd8.appspot.com",
+    messagingSenderId: "651235386423",
+    appId: "1:651235386423:web:244d50789c71e2ddeecbb2",
+    measurementId: "G-LTSRV03ENY"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+
 </body>
 </html>
