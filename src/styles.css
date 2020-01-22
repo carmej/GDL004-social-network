@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box;
 
 }
 
@@ -18,6 +18,13 @@ header{
 	top: 0;
 	left: 0;
 	z-index: 100;
+}
+
+#container{
+	weight:90%;
+	height:350px;
+	background-color:salmon;
+  margin-top: 100px;
 }
 
 
@@ -49,28 +56,28 @@ img.pequeña{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 25px; 
+        padding-bottom: 25px;
         bottom: 0;
         position: relative;;
     }
-    
+
     .copy {
         font-size: 20px;
     }
-    
+
     footer .contenedor{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 25px; 
+        padding-bottom: 25px;
         bottom: 0;
         position: absolute;
     }
-    
+
     .copy {
         font-size: 20px;
     }
-    
+
     @media (min-width: 768px){
 
         }
@@ -78,14 +85,14 @@ img.pequeña{
             justify-content: space-between;
         }
     }
-    
+
     @media (min-width: 1024px){
         .contenedor{
             width: 1000px;
         }
     }
-    
-   
+
+
     /*estilo para ingresar*/
 #ingresar{
     margin-top: 50px;
