@@ -6,8 +6,8 @@ export default ()=> {
   divElement.setAttribute("id", "divElement");
 
   //Crear form principal
-  const formCrearCuenta = document.createElement("form")
-  divElement.appendChild(formCrearCuenta);
+  //const formCrearCuenta = document.createElement("form")
+//  divElement.appendChild(formCrearCuenta);
 
   //Input nombre
   const inputTextNom=document.createElement("input")
@@ -29,11 +29,10 @@ export default ()=> {
   inputAceptar.setAttribute("type", "submit");
   inputAceptar.setAttribute("value", "submit");
 
-
-  formCrearCuenta.appendChild(inputTextNom);
-  formCrearCuenta.appendChild(inputTextApe);
-  formCrearCuenta.appendChild(inputTextCorreo);
-  formCrearCuenta.appendChild(inputAceptar);
+  divElement.appendChild(inputTextNom);
+  divElement.appendChild(inputTextApe);
+  divElement.appendChild(inputTextCorreo);
+  divElement.appendChild(inputAceptar);
 
   return crearCuenta;
 };
