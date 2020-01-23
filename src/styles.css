@@ -131,7 +131,7 @@ img.pequeña{
 }
 /*css vista de inicio */
 .contenedor-inicio{
-    background-color: rgba(238, 201, 159, 0.76);
+    background-color: rgba(238, 204, 247, 0.76);
     width: auto;
     height: 350px;
     margin-top: 100px;
@@ -167,7 +167,7 @@ img.pequeña{
 .logo-inicio{
  width: 100px;;
  height: 100px;
- border-radius: 50px;
+ border-radius: 5px;
 }
 /*asta aqui css de vista inicio*/
 /*inicia css de vista entrar o login*/
