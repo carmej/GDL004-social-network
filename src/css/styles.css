@@ -6,7 +6,8 @@
 }
 
 body{
-	font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
+    background-color: rgb(252, 235, 204);
 }
 
 header{
@@ -77,7 +78,6 @@ img.pequeña{
         footer .contenedor{
             justify-content: space-between;
         }
-    }
     
     @media (min-width: 1024px){
         .contenedor{
@@ -127,4 +127,193 @@ img.pequeña{
 	height: 100vh;
 	top: 50px;
     display: flex;
+}
+/*css vista de inicio */
+.contenedor-inicio{
+    background-color: rgba(238, 204, 247, 0.76);
+    width: auto;
+    height: 350px;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.items{
+    width: 90%;
+    height: 100px;;
+    /*background: #69a6dfc2;*/
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+    align-items: center;
+       
+}
+.items:nth-child(3){
+    /*background: salmon;*/
+    height: 150px;
+    color: rgb(92, 63, 22);
+    
+    
+}
+.items:nth-child(2){
+    background: honeydew;
+    height: 50px;
+    width: 60%;
+}
+.logo-inicio{
+ width: 100px;
+ height: 100px;
+ border-radius: 5px;
+}
+/*asta aqui css de vista inicio*/
+/*inicia css de vista entrar o login*/
+#_container{
+    background-color: rgba(198, 237, 240, 0.589);
+    width: 350px;
+    height: 550px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    border-style: solid;
+    border-color:rgb(26, 113, 139);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+/*aqui inician los estilos para los elementos hijos del login-container*/
+.item-login:nth-child(1){
+    
+    width:300px;
+    margin-top: 20px;
+    height:100px;
+    font-size: 15px;
+    display: flex;
+    
+}
+.item-login:nth-child(2){
+   /* background: #586436d7;*/
+    height:50px;
+
+}
+.item-login:nth-child(3){
+    /*background: #3c3c50;*/
+    height:50px;
+}
+.item-login:nth-child(4){
+    margin-top: 10px;
+    /*background: #5b9fdf98;*/
+    display:flex;
+
+}
+.item-login:nth-child(5){
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    /*background: #e7b67698;*/
+    font-size: 15px;
+    margin-bottom:10px;
+    font-style:italic;
+}
+.item-login:nth-child(6){
+   /* background: #586436d7;*/
+    height:150px;
+}
+.item-login:nth-child(7){
+   /* background: #434932d7;*/
+    height:50px;
+   
+
+}
+/*los siguientes son estilos de los input y botones vew login*/
+#email{
+  
+ height: 40px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: #bcccced7;
+}
+#password{
+ height: 40px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: #bcccced7;
+}
+
+
+.form-login--user{
+    width: 180px;
+}
+/*estilo del btn iniciar sesion*/
+.form-login--submit{
+    
+    height: 40px;
+    width: 140px;
+    border-radius:13px;
+    border-style: solid;
+    border-color:rgb(26, 113, 139);
+}
+
+.form-login--submit:hover{
+    color: rgb(32, 192, 139);
+}
+/*hasta aqui diseño de view entrar-log in*/
+/*inicia css view crear cuenta*/
+.div_btn{
+    /*background-color: rgb(161, 130, 190);*/
+    height: 100px;
+    width: 320px;
+    display: flex;
+
+    justify-content:flex-end;
+    margin-top:10px;
+    margin-bottom:18px;
+}
+.item-cuenta{
+   
+    height: 40px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f9feffd7;
+    margin-bottom: 7px;
+}
+.inicio_btn{
+    height: 35px;
+    width:  63px;
+    border-radius:5px;
+    border-style: solid;
+    margin-right: 3px;
+    background-color: rgb(219, 132, 132);
+    border-color:rgb(233, 237, 238);
+   
+}
+.inicio_btn:hover{
+    background-color: white;
+    color:rgb(34, 30, 30);
+}
+.entrar_btn{
+    height: 35px;
+    width:  63px;
+    border-radius:5px;
+    border-style: solid;
+    background-color: rgb(219, 132, 132);
+    border-color:rgb(233, 237, 238);
+}
+.entrar_btn:hover{
+    background-color: white;
+    color:rgb(34, 30, 30);
+    
+}
+.cuenta_btn{
+    height: 40px;
+    width: 140px;
+    border-radius:13px;
+    border-style: solid;
+    border-color:rgb(26, 113, 139);
+}
+.cuenta_btn:hover{
+    color: rgb(32, 192, 139); 
 }
