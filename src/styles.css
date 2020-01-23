@@ -6,7 +6,8 @@
 }
 
 body{
-	font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;
+    background-color: rgb(252, 235, 204);
 }
 
 header{
@@ -169,43 +170,94 @@ img.pequeña{
  border-radius: 50px;
 }
 /*asta aqui css de vista inicio*/
-/*css de vista entrar o login*/
-.login-container{
+/*inicia css de vista entrar o login*/
+#_container{
     background-color: rgba(198, 237, 240, 0.589);
     width: 350px;
-    height: 450px;
-    margin-top: 100px;
+    height: 550px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: auto;
+    border-style: solid;
+    border-color:rgb(26, 113, 139);
     display:flex;
     flex-direction: column;
     align-items:center;
 }
+/*aqui inician los estilos para los elementos hijos del login-container*/
 .item-login:nth-child(1){
-   /* background: #ddad91d7;*/
+    
     width:300px;
-    margin-top: 10px;
-    height:50px;
+    margin-top: 20px;
+    height:100px;
     font-size: 15px;
     display: flex;
-    
-
     
 }
 .item-login:nth-child(2){
    /* background: #586436d7;*/
-    height:35px;;
-    
-
+    height:50px;
 
 }
 .item-login:nth-child(3){
-   /* background: #9696d19b;*/
-    height: 40px;
+    /*background: #3c3c50;*/
+    height:50px;
 }
 .item-login:nth-child(4){
-    height: 100px;
+    margin-top: 10px;
     /*background: #5b9fdf98;*/
+    display:flex;
 
+}
+.item-login:nth-child(5){
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    /*background: #e7b67698;*/
+    font-size: 15px;
+    margin-bottom:10px;
+    font-style:italic;
+}
+.item-login:nth-child(6){
+   /* background: #586436d7;*/
+    height:150px;
+}
+.item-login:nth-child(7){
+    background: #434932d7;*/
+    height:50px;
+   
+
+}
+/*los siguientes son estilos de los input y botones vew login*/
+#email{
+  
+ height: 40px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: #bcccced7;
+}
+#password{
+ height: 40px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: #bcccced7;
+}
+}
+
+.form-login--user{
+    width: 180px;
+}
+/*estilo del btn iniciar sesion*/
+.form-login--submit{
+    
+    height: 40px;
+    width: 140px;
+    border-radius:13px;
+    border-style: solid;
+    border-color:rgb(26, 113, 139);
+}
+
+.form-login--submit:hover{
+    color: rgb(32, 192, 139);
 }
