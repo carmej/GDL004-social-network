@@ -34,8 +34,8 @@ img.pequeña{
     }
 
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 80px;
     float: left;
     z-index: 100;
     }
@@ -43,7 +43,7 @@ img.pequeña{
     h1{
         display: flex;
         align-items: initial;
-        justify-content:center;
+        justify-content: inherit;
         font-size: 25px;
     }
     footer .contenedor{
@@ -193,17 +193,14 @@ img.pequeña{
     
 }
 .item-login:nth-child(2){
-   /* background: #586436d7;*/
     height:50px;
 
 }
 .item-login:nth-child(3){
-    /*background: #3c3c50;*/
     height:50px;
 }
 .item-login:nth-child(4){
     margin-top: 10px;
-    /*background: #5b9fdf98;*/
     display:flex;
 
 }
@@ -211,17 +208,14 @@ img.pequeña{
     height: 50px;
     display: flex;
     align-items: flex-end;
-    /*background: #e7b67698;*/
     font-size: 15px;
     margin-bottom:10px;
     font-style:italic;
 }
 .item-login:nth-child(6){
-   /* background: #586436d7;*/
     height:150px;
 }
 .item-login:nth-child(7){
-   /* background: #434932d7;*/
     height:50px;
    
 

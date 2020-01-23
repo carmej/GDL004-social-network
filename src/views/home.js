@@ -1,7 +1,7 @@
 export default ()=> {
     const viewhome= `
     -<header>
-   <div class="contenedor">
+   <div class="img.pequeña">
       <img class="logo" src="images/logo-hs.png">
       <h1>LIBRES PARA APRENDER</h1>  
             <nav class="menu">
