@@ -261,3 +261,60 @@ img.pequeña{
 .form-login--submit:hover{
     color: rgb(32, 192, 139);
 }
+/*hasta aqui diseño de view entrar-log in*/
+/*inicia css view crear cuenta*/
+.div_btn{
+    /*background-color: rgb(161, 130, 190);*/
+    height: 100px;
+    width: 320px;
+    display: flex;
+
+    justify-content:flex-end;
+    margin-top:10px;
+    margin-bottom:18px;
+}
+.item-cuenta{
+   
+    height: 40px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f9feffd7;
+    margin-bottom: 7px;
+}
+.inicio_btn{
+    height: 35px;
+    width:  63px;
+    border-radius:5px;
+    border-style: solid;
+    margin-right: 3px;
+    background-color: rgb(219, 132, 132);
+    border-color:rgb(233, 237, 238);
+   
+}
+.inicio_btn:hover{
+    background-color: white;
+    color:rgb(34, 30, 30);
+}
+.entrar_btn{
+    height: 35px;
+    width:  63px;
+    border-radius:5px;
+    border-style: solid;
+    background-color: rgb(219, 132, 132);
+    border-color:rgb(233, 237, 238);
+}
+.entrar_btn:hover{
+    background-color: white;
+    color:rgb(34, 30, 30);
+    
+}
+.cuenta_btn{
+    height: 40px;
+    width: 140px;
+    border-radius:13px;
+    border-style: solid;
+    border-color:rgb(26, 113, 139);
+}
+.cuenta_btn:hover{
+    color: rgb(32, 192, 139); 
+}
